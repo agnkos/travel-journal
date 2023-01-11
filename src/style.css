@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.main-container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    /* padding: .25em; */
+    height: 55px;
+}
+
+.header-logo {
+    height: 24px;
+}
+
+.header-title {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+/* post */
+
+.posts-container {
+    padding: 1em 0;
+}
+
+.post {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.post-image {
+    width: 125px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.post-location {
+    font-size: .625rem;
+    display: flex;
+    gap: .5em;
+    margin-bottom: .25em;
+}
+
+.post-location i {
+    color: #F55A5A;
+}
+
+.post-location-country {
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+}
+
+.post-location a {
+    color: #918E9B;
+    border-bottom: 1px solid #918E9B;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.post-title {
+    margin-bottom: .5em;
+    font-size: 1.5rem;
+}
+
+.post-date {
+    font-size: .625rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.post-description {
+    font-size: .625rem;
+    line-height: 1.5;
+}
